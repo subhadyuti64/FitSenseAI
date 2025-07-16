@@ -16,15 +16,7 @@
 
 ## 🗂️ Project Structure
 
-fitsense/
-├── backend/
-│ ├── main.py # FastAPI app with prediction route
-│ ├── utils.py # Model loading and preprocessing
-│ └── fitsense.pth # Trained PyTorch model file
-├── frontend/
-│ └── app.py # Streamlit web interface
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+<pre> ``` fitsense/ ├── backend/ │ ├── main.py # FastAPI app with prediction route │ ├── utils.py # Model loading and preprocessing logic │ └── model.pth # Trained PyTorch model ├── frontend/ │ └── streamlit_app.py # Streamlit user interface ├── requirements.txt # Python dependencies └── README.md # Project documentation ``` </pre>
 
 ## 🛠️ Setup Instructions
 
@@ -49,6 +41,7 @@ Step 2: Run the Streamlit Frontend
 In a new terminal (while backend is running):
 streamlit run frontend/streamlit_app.py
 Opens in browser at http://localhost:8501
+```
 
 Upload an image to classify your outfit!
 🧪 API Usage
