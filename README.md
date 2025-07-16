@@ -16,16 +16,7 @@
 
 ## 🗂️ Project Structure
 
-fitsense/
-├── backend/
-│   ├── main.py
-│   ├── utils.py
-│   └── model.pth
-├── frontend/
-│   └── streamlit_app.py
-├── requirements.txt
-└── README.md
-
+<pre> ```bash fitsense/ ├── backend/ │ ├── main.py │ ├── utils.py │ └── model.pth ├── frontend/ │ └── streamlit_app.py ├── requirements.txt └── README.md ``` </pre>
 
 ## 🛠️ Setup Instructions
 
