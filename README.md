@@ -16,7 +16,16 @@
 
 ## 🗂️ Project Structure
 
-<pre> ``` fitsense/ ├── backend/ │ ├── main.py # FastAPI app with prediction route │ ├── utils.py # Model loading and preprocessing logic │ └── model.pth # Trained PyTorch model ├── frontend/ │ └── streamlit_app.py # Streamlit user interface ├── requirements.txt # Python dependencies └── README.md # Project documentation ``` </pre>
+fitsense/
+├── backend/
+│   ├── main.py
+│   ├── utils.py
+│   └── model.pth
+├── frontend/
+│   └── streamlit_app.py
+├── requirements.txt
+└── README.md
+
 
 ## 🛠️ Setup Instructions
 
