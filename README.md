@@ -45,17 +45,6 @@ Opens in browser at http://localhost:8501
 - Input: Image file (JPEG/PNG)
 - Output: JSON with predicted label
 
-
-
-## ✅ To-Do
-- Add Grad-CAM explainability
-- Add confidence scores for predictions
-- Dockerize for production
-- Batch upload and multi-image support
-
-## 📄 License
-This project is licensed under the MIT License.
-
 ## 👤 Author
 Built with ❤️ by Subhadyuti Rath
 
