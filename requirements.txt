@@ -1,0 +1,20 @@
+# Core dependencies
+torch
+torchvision
+Pillow
+
+# FastAPI backend
+fastapi
+uvicorn
+python-multipart  # For file uploads
+aiofiles
+requests
+
+# Streamlit frontend
+streamlit
+
+# CORS (for frontend-backend communication)
+starlette
+
+# Optional for deployment or debugging
+numpy
