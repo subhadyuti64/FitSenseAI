@@ -16,9 +16,8 @@
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the Repository
-
 ```bash
+Clone the Repository
 git clone https://github.com/yourusername/fitsense.git
 cd fitsense
 
