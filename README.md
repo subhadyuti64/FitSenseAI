@@ -37,13 +37,13 @@ Step 2: Run the Streamlit Frontend
 In a new terminal (while backend is running):
 streamlit run frontend/streamlit_app.py
 Opens in browser at http://localhost:8501
-```
 
-## Upload an image to classify your outfit!
+Upload an image to classify your outfit!
 - 🧪 API Usage
 - 📤 POST /predict
 - Input: Image file (JPEG/PNG)
 - Output: JSON with predicted label
+```
 
 ## 👤 Author
 Built with ❤️ by Subhadyuti Rath
