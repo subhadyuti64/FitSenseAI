@@ -40,18 +40,18 @@ Opens in browser at http://localhost:8501
 ```
 
 ## Upload an image to classify your outfit!
-🧪 API Usage
-📤 POST /predict
-Input: Image file (JPEG/PNG)
-Output: JSON with predicted label
+- 🧪 API Usage
+- 📤 POST /predict
+- Input: Image file (JPEG/PNG)
+- Output: JSON with predicted label
 
 
 
 ## ✅ To-Do
- Add Grad-CAM explainability
- Add confidence scores for predictions
- Dockerize for production
- Batch upload and multi-image support
+- Add Grad-CAM explainability
+- Add confidence scores for predictions
+- Dockerize for production
+- Batch upload and multi-image support
 
 ## 📄 License
 This project is licensed under the MIT License.
