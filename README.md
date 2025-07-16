@@ -17,7 +17,7 @@
 ## 🛠️ Setup Instructions
 
 ```bash
-Clone the Repository
+1. Clone the Repository
 git clone https://github.com/yourusername/fitsense.git
 cd fitsense
 
@@ -37,7 +37,7 @@ In a new terminal (while backend is running):
 streamlit run frontend/streamlit_app.py
 Opens in browser at http://localhost:8501
 
-Upload an image to classify your outfit!
+2. Upload an image to classify your outfit!
 - 🧪 API Usage
 - 📤 POST /predict
 - Input: Image file (JPEG/PNG)
