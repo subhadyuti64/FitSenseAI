@@ -1,5 +1,7 @@
 # 👕 FitSense – AI Outfit Classifier
 
+Deployed Link : https://fitsenseai-jueep53xgbzjrl5z2pq3qk.streamlit.app/
+
 **FitSense** is a lightweight AI-powered web application that classifies outfit images into three categories: **Casual**, **Elegant**, or **Sportswear**. It combines the power of a PyTorch-trained deep learning model, a FastAPI backend, and a Streamlit frontend to deliver real-time predictions with a simple interface.
 
 ---
