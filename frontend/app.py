@@ -16,5 +16,16 @@ if uploaded_file:
         if response.status_code == 200:
             label = response.json()["prediction"]
             st.success(f"**Predicted Style:** {label.capitalize()}")
+
+            if st.button("Get Style Tips"):
+                tip_resp = requests.post(
+                    "http://localhost:8000/suggest",
+                    json={"label": label},
+                )
+                if tip_resp.status_code == 200:
+                    tips = tip_resp.json()["tips"]
+                    st.info(tips)
+                else:
+                    st.error("Tip generation failed.")
         else:
             st.error("Prediction failed. Check backend.")

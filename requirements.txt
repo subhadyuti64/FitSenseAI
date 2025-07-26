@@ -18,3 +18,4 @@ starlette
 
 # Optional for deployment or debugging
 numpy
+google-generativeai
